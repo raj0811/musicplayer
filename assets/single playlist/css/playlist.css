@@ -1,0 +1,428 @@
+/* setting background image */
+
+/* impoting google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.text-border-black {
+    text-shadow: 0 0 3px black, 0 0 3px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* hover blur */
+.hover-blur:hover {
+    opacity: 0.5;
+
+}
+
+.hover-shadow:hover {
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.nav-bar {
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(1080deg, grey, black);
+    opacity: 0.8;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar>div {}
+
+.title {
+    display: flex;
+}
+
+title>div {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.tag-line {
+    /* background-color: aqua; */
+    align-items: center;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.playlist-name {
+    /* background-color: rebeccapurple; */
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+/* playlist name */
+.playlist-name {
+    color: aliceblue;
+}
+
+/* search bar */
+.search-bar {
+    width: 20%;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.search-bar input:hover {
+    border: 2px solid red;
+}
+
+/* change color of searcha nd mic icon */
+.fa-searchengin {
+    color: red;
+}
+
+.fa-microphone-lines {
+    color: brown;
+}
+
+/* search icon */
+.search-bar div:nth-child(1) {
+    display: inline-block;
+    position: absolute;
+    width: min-content;
+    right: 90%;
+    top: 20%;
+
+}
+
+/* mic */
+.search-bar>div:nth-child(3) {
+    display: inline-block;
+    position: absolute;
+    width: min-content;
+    right: 5%;
+    top: 30%;
+}
+
+/* notification bell */
+
+/* animation for bell */
+@keyframes notificaton_bell {
+    0% {
+        transform: rotate(-15deg);
+    }
+
+    50% {
+        transform: rotate(15deg);
+    }
+
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+.notificaton img {
+    width: 40px;
+    height: 40px;
+    animation-name: notificaton_bell;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    position: initial;
+
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.user-profile img:hover {
+    border: 2px solid white;
+
+}
+
+/* nav end------------------------------------------------------------------------------------------------------------------------------- */
+main {
+    overflow: hidden;
+
+}
+
+.about-section {
+    display: flex;
+}
+
+aside {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.playlist-left {
+    width: 60%;
+    background-color: black;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-artist-container {
+    display: flex;
+
+    width: 98%;
+    flex-wrap: wrap;
+    height: 15vw;
+    margin-left: 1%;
+    margin-top: 2%;
+
+}
+
+.about-artist {
+    height: 100%;
+    width: 60%;
+    width: 60%;
+
+
+
+
+}
+
+.about-artist h3 {
+    color: #FFCC70;
+    font-weight: 800;
+    font-size: 3vw;
+
+}
+
+.about-artist p {
+    color: antiquewhite;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 1.3vw;
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cover-img {
+    height: 100%;
+    ;
+    width: 40%;
+    background-color: aliceblue;
+
+}
+
+.cover-img img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+
+/* music container */
+
+.right-playlist-container {
+    padding: 0;
+    overflow-x: hidden;
+    overflow: scroll;
+    height: 28vw;
+    margin-top: 1%;
+    padding: 2%;
+
+
+
+}
+
+.right-playlist-container::-webkit-scrollbar {
+    display: none;
+
+}
+
+.playlist-left {
+    overflow: hidden;
+
+}
+
+.playlist-song-plying {
+
+    height: 4vw;
+    width: 90%;
+    padding: 1%;
+    border-radius: 30vw;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    border: 1px solid wheat;
+    transition: all ease-in-out 0.4s;
+
+
+
+
+
+
+}
+
+.playlist-song-plying:hover {
+    box-shadow: 0px 0px 2px 2px cyan;
+    border: none;
+    height: 5vw;
+}
+
+.song-name-and-play {
+    display: flex;
+
+
+    width: 70%;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: space-between;
+
+
+}
+
+
+.right-song-img {
+
+    height: 90%;
+    width: 10%;
+    margin-left: 5%;
+    background-color: black;
+    display: flex;
+
+
+
+}
+
+.right-song-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-song-info {
+
+    color: aliceblue;
+    /* background-color: aqua; */
+    font-size: 01rem;
+    width: 30%;
+
+}
+
+.right-song-player {
+
+    /* background-color: blueviolet; */
+    width: 15%;
+    height: 100%;
+    background-color: black;
+
+
+
+}
+
+.play-button {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.play-button button {
+    background-color: transparent;
+}
+
+.mbtn {
+    font-size: rem;
+    border-radius: 50%;
+    margin-left: 10%;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+/* rigt----------------------------- */
+.about-right {
+
+    width: 40%;
+    height: 43vw;
+    background-color: rebeccapurple;
+    overflow: hidden;
+    background: fixed;
+}
+
+.img-contain {
+    height: 100%;
+    width: 100%;
+    background-color: #FFCC70;
+}
+
+.img-contain img {
+    height: 100%;
+    width: 100%;
+    background-color: #FFCC70;
+
+}
+
+.socialmedia {
+    text-align: center;
+    position: relative;
+    bottom: 20%;
+    background-color: white;
+    height: 13%;
+    font-size: 5rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialmedia a:hover {
+    color: black;
+}

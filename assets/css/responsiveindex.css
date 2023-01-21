@@ -1,0 +1,213 @@
+@media screen and (max-width: 945px) {
+	/* animated favourites text will be hidden for this viewport width*/
+	nav{
+      
+    }
+    body{
+       background-image: none;
+       background-color: black;
+
+    }
+
+
+    /* nav bar------------------------------------------------------------------------------------------------------------*/
+
+
+
+    /* tag line */
+
+
+    .tag-line{
+        font-size: 80%;
+        margin-top: 10%;
+    }   
+    /* search icon postion */
+    .search-bar div:nth-child(1){
+       
+        position: absolute;
+        left: 5%;
+        
+    }
+
+    /* ---new release----------------------------------------------------------------------------------------------------- */
+    .card{
+        width: 40%;
+        height: 7vw;
+        margin-top: 3%;
+        color: wheat;
+        
+    }
+    .cad-info {
+        font-size: 80%;
+        color: wheat;
+    }
+
+
+    /* popular------------------------------------------------------------------------------------------------- */
+
+    .popular-artists-content{
+       color: wheat;
+    }
+
+    /* new---------------------------------------------------- */
+    .audio{
+        display: flex;
+        justify-content: center;
+    }
+    .play-buttons{
+        
+        width: 80%;
+        height: 70%;
+        font-size: 80%;
+
+    }
+    .song-info h4{
+        font-size: 80%;
+    }
+    .song-info span{
+        font-size: 80%;
+    }
+
+    
+   
+    .song-info{
+       
+        height: 80%;
+    }
+
+    /* audio book------------------------------------------------------------------- */
+    .audio-book-name a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 80%;
+        padding: 0;
+    }
+
+    /* RIGHT PLAYLIST----------------------------------------------------------------------- */
+
+
+
+    .right-song-details{
+        color: white;
+        font-size: 80%;
+    }
+
+    .fa-gratipay{
+        font-size: 100%;
+    }
+
+    .bottom-music-card{
+        display: none;
+
+    }
+}
+
+
+
+/* 68 pix----------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 680px){
+
+
+    body{
+        
+        
+    }
+    .tile-title{
+        font-size: 100%;
+    }
+    /* nav bar---------------------------------------------------------------- */
+    .playlist-name {
+        display: none;
+    }
+
+    .nav-bar{
+        justify-content: space-around;
+    }
+    /* new songs--------------------------------------------------------------------- */
+    .card{
+        
+    }
+    .cad-info h3{
+        font-size: 80%;
+        padding: 0;
+        margin: 0;
+        margin-top: 4%;
+    }
+    
+    .card-info span{
+        font-size: 70%;
+        
+    }
+
+    /* band--------------------------------------------------------------------------------------------------------- */
+
+    /* theme */
+
+    .categories-box div p:hover{
+        opacity: 0;
+    }
+
+    /* theme ----------------------------------------------------------------------------------------*/
+
+    .theme{
+        justify-content: center;
+        
+    }
+    .themeimg a{
+        opacity: 0;
+        font-size: 80%;
+    }
+    .themeimg a:hover{
+        opacity: 1;
+        font-size: 80%;
+    }
+    .outer-div{
+        width: 40%;
+        height: 17vw;
+        background-size: contain;
+    }
+
+/* songsssssssssssssssssssssssssssssssssssssssssssssssssssss */
+    
+.play-song-container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+.song-info{
+    display: flex;
+    flex-direction: row;
+    
+    width: 43%;
+    align-items: center;
+    margin-top: 2%;
+    
+    
+}
+.song-img{
+    
+}
+.audio{
+    order: 9;
+    
+    width: 30%;
+    height: 100%;
+    
+}
+.play-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.play-buttons button{
+        
+        margin-top: 20%;
+}
+.song-artist-name{
+    
+}
+
+}

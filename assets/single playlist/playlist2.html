@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/a019ae4c81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/playlist.css">
+    <link rel="stylesheet" href="../css/responsiveindex.css">
+    <title>Music player</title>
+</head>
+<!-- upper potion -->
+
+<body>
+    <!-- top navigation bar -->
+
+    <nav class="nav-bar">
+        <!-- logo  anme of application -->
+        <div class="title">
+            <div class="logo">
+                <img src="./images/logo.png">
+            </div>
+            <a class="home" href="../../index.html">
+                <div class="tag-line">
+                    <h3>MORE THAN</h3>
+                    <h3> JUST MUSIC</h3>
+
+                </div>
+            </a>
+
+
+        </div>
+        <!-- playlist name -->
+        <div class="playlist-name">
+            <h4>Favourites</h4>
+        </div>
+        <div class="search-bar">
+            <div>
+                <!-- seach icon -->
+                <i class="fa-brands fa-searchengin "></i>
+            </div>
+            <!-- search input -->
+            <input type="search" name="search" placeholder="Search ">
+            <div>
+                <!-- mic icon -->
+                <i class="fa-solid fa-microphone-lines"></i>
+            </div>
+        </div>
+        <!-- notification bell -->
+        <div class="notificaton">
+            <img src="./images/bell.png">
+        </div>
+
+        <!-- user  profile  -->
+        <div class="user-profile">
+            <img src="./images/profile.jpg">
+        </div>
+    </nav>
+
+
+    <main class="about-section">
+
+        <aside class="playlist-left">
+            <div class="about-artist-container">
+
+                <div class="about-artist">
+                    <h3>Ed Sheeran</h3>
+                    <p class="text-border-black">
+                        Edward Christopher Sheeran MBE is an English singer-songwriter. 
+                        Born in Halifax, West Yorkshire and raised in Framlingham, Suffolk, 
+                        he began writing songs around the age of eleven. In early 2011, Sheeran 
+                        independently released the extended play, No. 5 Collaborations Project
+                </div>
+                <div class="cover-img">
+                    <img src="./images/eds.jpg">
+                
+                </div>
+
+            </div>
+
+            <div class="right-playlist-container">
+
+
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/songcover/Ed_Sheeran_Perfect_Single_cover.jpg">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Perfect</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song1">
+                                <source src="./music/ritviz/liggi.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song1').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song1').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/Ritviz/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.png">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Shape Of you</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song2">
+                                <source src="./music/ritviz/Sage Ved 128 Kbps.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song2').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song2').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/Ritviz/thnk.jpg">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Thinking Out Loud</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song3">
+                                <source src="./music/ritviz/Jeet 2.0 Ved 128 Kbps.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song3').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song3').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/Ritviz/cad.png">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Bad Habits</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song1">
+                                <source src="./music/ritviz/liggi.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song1').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song1').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/Ritviz/ggg.jpg">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Galway Girl</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song1">
+                                <source src="./music/ritviz/liggi.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song1').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song1').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/Ritviz/Ed_Sheeran_Sing.png">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Sing</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song1">
+                                <source src="./music/ritviz/liggi.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song1').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song1').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-song-plying">
+                    <div class="right-song-img">
+                        <img src="./images/Ritviz/Ed_Sheeran_-_Cross_Me.png">
+                    </div>
+
+
+                    <div class="song-name-and-play">
+                        <div class="right-song-info">
+                            <h3>Cross me</h3>
+                            <h5>2019</h5>
+                        </div>
+
+                        <div class="right-song-player">
+
+                            <audio id="song1">
+                                <source src="./music/ritviz/liggi.mp3">
+                                <button>play </button>
+                            </audio>
+                            <div class="play-buttons">
+                                <button class="mbtn" onclick="document.getElementById('song1').play()"><i
+                                        class="fa-solid fa-play"></i></button>
+                                <button class="mbtn" onclick="document.getElementById('song1').pause()"><i
+                                        class="fa-solid fa-pause"></i></button>
+                                <!-- <button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                                <button onclick="document.getElementById('player').volume -= 0.1">Vol -</button>  -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </aside>
+
+
+
+        <aside class="about-right">
+            <div class="img-contain">
+                <img src="./images/artists/edssss.jpg">
+            </div>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/ritvizmusic" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/vizdumb/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/ritviz?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCLx-YFOk_NgXNG7uCXq8m5w" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+
+
+        </aside>
+
+    </main>
+
+
+
+</body>
+
+</html>
